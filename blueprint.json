@@ -45,7 +45,7 @@
       "web_root_directory": "",
       "continuous_deployment": false,
       "first_run_url": "",
-      "installation_report": ""
+      "installation_report": "** Goto [_Engines_Builder(http_protocol)://_Engines_Builder(fqdn)/](_Engines_Builder(http_protocol)://_Engines_Builder(fqdn)/) **\r\n\r\nlogin as admin with the password admin"
     },
     "ports": [
 
@@ -85,7 +85,7 @@
     ],
     "required_modules": [
       {
-        "name": "php-zip",
+        "name": "php7.0-zip",
         "type": "php",
         "os_package": ""
       }
