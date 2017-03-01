@@ -85,9 +85,9 @@
     ],
     "required_modules": [
       {
-        "name": "php7.0-zip",
+        "name": "php-zip",
         "type": "php",
-        "os_package": ""
+        "os_package": "php-zip"
       }
     ],
     "service_configurations": [
