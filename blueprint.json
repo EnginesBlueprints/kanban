@@ -92,7 +92,7 @@
     ],
     "service_configurations": [
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "filesystem/local/filesystem",
         "variables": {
           "service_name": "_Engines_Builder(engine_name)_config",
@@ -104,7 +104,7 @@
         }
       },
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "filesystem/local/filesystem",
         "variables": {
           "service_name": "_Engines_Builder(engine_name)_data",
@@ -116,7 +116,7 @@
         }
       },
       {
-        "namespace": "EnginesSystem",
+        "publisher_namespace": "EnginesSystem",
         "type_path": "database/sql/mysql",
         "variables": {
           "db_flavor": "mysql2",
