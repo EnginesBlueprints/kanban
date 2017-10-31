@@ -28,7 +28,7 @@
         "url": "https://opensource.org/licenses/MIT"
       }
     },
-    "timestamp": "2017-06-09 08:09:10 UTC"
+    "timestamp": "2017-10-31T13:02:31+11:00"
   },
   "software": {
     "base": {
@@ -59,8 +59,8 @@
     },
     "installed_packages": [
       {
-        "name": "kanboard-1.0.36.zip",
-        "source_url": "https://kanboard.net/kanboard-1.0.36.zip",
+        "name": "kanboard-1.0.48.zip",
+        "source_url": "https://kanboard.net/kanboard-1.0.48.zip",
         "destination": "./",
         "extraction_command": "unzip",
         "path_to_extracted": "kanboard"
