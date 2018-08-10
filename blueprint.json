@@ -28,7 +28,7 @@
         "url": "https://opensource.org/licenses/MIT"
       }
     },
-    "timestamp": "2018-08-10T23:32:06+10:00"
+    "timestamp": "2018-08-10T23:50:16+10:00"
   },
   "software": {
     "base": {
@@ -59,8 +59,9 @@
     },
     "installed_packages": [
       {
-        "name": "kanboard-1.0.48.zip",
-        "source_url": "https://github.com/kanboard/kanboard/releases/download/v1.0.48/kanboard-1.0.48.zip",
+        "name": "kanboard-1.2.5.tar.gz",
+        "download_type": "http(s)",
+        "source_url": "https://github.com/kanboard/kanboard/archive/v1.2.5.tar.gz",
         "destination": "./",
         "extraction_command": "unzip",
         "path_to_extracted": "kanboard"
@@ -71,6 +72,11 @@
         "name": "php-zip",
         "type": "php",
         "os_package": "php-zip"
+      },
+      {
+        "name": "php-ldap",
+        "type": "php",
+        "os_package": "php-ldap"
       }
     ],
     "service_configurations": [
