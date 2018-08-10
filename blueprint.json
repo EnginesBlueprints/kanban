@@ -28,7 +28,7 @@
         "url": "https://opensource.org/licenses/MIT"
       }
     },
-    "timestamp": "2018-08-11T01:48:30+10:00"
+    "timestamp": "2018-08-11T01:56:40+10:00"
   },
   "software": {
     "base": {
@@ -182,7 +182,8 @@
     ],
     "persistent_files": [
       {
-        "path": "app/config.php"
+        "path": "/home/app/config.php",
+        "volume_name": "config"
       }
     ]
   }
