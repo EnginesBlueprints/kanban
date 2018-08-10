@@ -28,7 +28,7 @@
         "url": "https://opensource.org/licenses/MIT"
       }
     },
-    "timestamp": "2018-08-10T23:50:16+10:00"
+    "timestamp": "2018-08-10T23:58:38+10:00"
   },
   "software": {
     "base": {
@@ -63,7 +63,7 @@
         "download_type": "http(s)",
         "source_url": "https://github.com/kanboard/kanboard/archive/v1.2.5.tar.gz",
         "destination": "./",
-        "extraction_command": "unzip",
+        "extraction_command": "tar -xzpf ",
         "path_to_extracted": "kanboard"
       }
     ],
